@@ -1,5 +1,6 @@
 package com.itsradiix.muffinapi;
 
+import com.itsradiix.muffinapi.menus.MenuManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class MuffinAPI {
@@ -8,10 +9,7 @@ public final class MuffinAPI {
 
 	 public void hook(JavaPlugin plugin){
 		MuffinAPI.plugin = plugin;
-	 }
-
-	 public void unhook(){
-
+		MenuManager.setup(plugin.getServer(), plugin);
 	 }
 
 	public static JavaPlugin getPlugin() {
