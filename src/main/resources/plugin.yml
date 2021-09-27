@@ -1,0 +1,7 @@
+name: MuffinAPI
+version: '${project.version}'
+main: com.itsradiix.muffinapi.MuffinAPI
+api-version: 1.17
+authors: [ ItsRadiiX ]
+description: Another API for creating Minecraft plugins
+website: https://itsradiix.com/
