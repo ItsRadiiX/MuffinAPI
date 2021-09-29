@@ -47,4 +47,11 @@ public class Messages {
 		return instance;
 	}
 
+	public Map<String, String> getMessages() {
+		return messages;
+	}
+
+	public YAMLFileManager getMessagesFile() {
+		return messagesFile;
+	}
 }

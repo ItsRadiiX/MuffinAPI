@@ -238,7 +238,9 @@ public abstract class Menu implements InventoryHolder {
 
 		ItemStack item = new ItemStack(material);
 		ItemMeta itemMeta = item.getItemMeta();
-		assert itemMeta != null;
+		if (itemMeta == null) {
+			return item;
+		}
 		itemMeta.setDisplayName(displayName);
 
 		//Automatically translate color codes provided

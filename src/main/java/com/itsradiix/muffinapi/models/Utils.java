@@ -24,8 +24,7 @@ public class Utils {
 	 * @param sound Sound sound to be played.
 	 */
 	public static void playSound(CommandSender sender, Sound sound){
-		if (sender instanceof Player){
-			Player p = (Player) sender;
+		if (sender instanceof Player p){
 			p.playSound(p.getLocation(), sound, 0.3F, 1.0F);
 		}
 	}
