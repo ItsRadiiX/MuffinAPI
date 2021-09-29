@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://w7.pngwing.com/pngs/500/681/png-transparent-cupcake-muffin-kavaii-cup-cake-food-smiley-cartoon.png" alt="Logo" width="160" height="120">
+    <img src="http://assets.stickpng.com/images/58661bb17d90850fc3ce2a6d.png" alt="Logo" width="160" height="120">
   </a>
 
   <h3 align="center">MuffinAPI</h3>
