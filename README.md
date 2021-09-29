@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://e7.pngegg.com/pngimages/546/485/png-clipart-purple-and-black-strawberry-illustration-cupcake-drawing-frosting-icing-muffin-cartoon-cupcake-purple-food.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">MuffinAPI</h3>
