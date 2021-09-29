@@ -166,6 +166,8 @@ public class Command implements CommandExecutor, TabExecutor {
 						return true;
 					}
 				}
+				//sender.sendMessage(messages.getMessage("syntaxError", "&fYou have a syntax error, please use: \n&7" + syntax));
+				//return true;
 			}
 			if (!(sender instanceof Player)){
 				if (!allowConsole){

@@ -25,6 +25,10 @@ public class Messages {
 
 	public void setupFromFile(String folder, String fileName, boolean isDefaultResource, boolean isAutoReloading){
 		messagesFile = new YAMLFileManager(folder, fileName, isDefaultResource, isAutoReloading);
+
+		messagesFile.getFileConfiguration().getValues(false).forEach((s, o) -> {
+			messages.put(s, String.valueOf(o));
+		});
 	}
 
 	public void setMessage(String var, String msg) {
